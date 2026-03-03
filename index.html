@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabal Bania | Music Producer from Assam</title>
+<meta name="description" content="Prabal Bania is a music producer from Assam creating cinematic and cultural soundscapes.">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin:0;
+    font-family:'Montserrat',sans-serif;
+    color:#F5E6C8;
+    background:#000;
+}
+
+.hero {
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+                url('assets/hero.jpg') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1 {
+    font-family:'Cinzel',serif;
+    font-size:60px;
+    color:#D4AF37;
+    letter-spacing:3px;
+}
+
+.hero p {
+    margin-top:20px;
+    font-size:18px;
+}
+
+section {
+    padding:80px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2 {
+    color:#D4AF37;
+    margin-bottom:30px;
+}
+
+.card {
+    border:1px solid #222;
+    padding:20px;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.card:hover {
+    border-color:#D4AF37;
+}
+
+input, textarea {
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    background:#111;
+    border:1px solid #333;
+    color:white;
+}
+
+button {
+    padding:12px 28px;
+    border:1px solid #D4AF37;
+    background:transparent;
+    color:#D4AF37;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover {
+    background:#D4AF37;
+    color:black;
+}
+
+footer {
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <div>
+        <h1>PRABAL BANIA</h1>
+        <p>Music Producer from Assam</p>
+    </div>
+</div>
+
+<section>
+    <h2>About</h2>
+    <p>
+    Prabal Bania is a music producer blending Assamese cultural roots 
+    with cinematic modern production aesthetics.
+    </p>
+</section>
+
+<section>
+    <h2>Music Showcase</h2>
+    <div class="card">Add Spotify / Apple Music Links Here</div>
+    <div class="card">Add YouTube Videos Here</div>
+</section>
+
+<section>
+    <h2>Booking & Contact</h2>
+    <form action="process.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Project Details" required></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<footer>
+© 2026 Prabal Bania. All Rights Reserved.
+</footer>
+
+</body>
+</html>
